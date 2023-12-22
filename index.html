@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conversions</title>
+    <link rel="stylesheet" href="temperature-conversion.css">
+</head>
+
+<body>
+    <div class="main-div">
+        <h3>Temperature Converter</h3>
+        <div>
+            <select name="temperature" id="temperature" class="temperature-select">
+                <option value="Select Scale">Select Scale</option>
+                <option value="Celsius-to-Fahrenheit">Celsius to Fahrenheit</option>
+                <option value="Fahrenheit-to-Celsius">Fahrenheit to Celsius</option>
+                <option value="Celsius-to-Kelvin">Celsius to Kelvin</option>
+                <option value="Fahrenheit-to-Kelvin">Fahrenheit to Kelvin</option>
+            </select>
+        </div>
+        <div>
+            <input type="number" name="number" id="number" class="number-input" placeholder="Select a scale">
+        </div>
+        <div>
+            <button class="calculate-btn convert-btn">Convert</button>
+        </div>
+        <p id="paragraph" class="dashboard"></p>
+        <p class="author">
+            ~Allen G. Clarke~
+        </p>
+    </div>
+    <script src="temperature-conversion.js"></script>
+</body>
+
+</html>

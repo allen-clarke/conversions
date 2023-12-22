@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    place-items: center;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.main-div {
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+    background-color: darkred;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 250px;
+    padding-bottom: 150px;
+    border-radius: 8px;
+    background-color: rgba(0, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 2px 2px 0.5px rgba(0, 255, 255, 1), -2px -2px 2px 0.5px rgba(0, 255, 255, 1)
+}
+.dashboard {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+    width: 200px;
+}
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 50px;
+    color: red;
+}
+div {
+    display: block;
+}
+.temperature-select {
+    padding-right: 50px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    outline: none;
+    background-color: corl;
+    border: none;
+    border-style: solid;
+    border-color: lightgray;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+}
+.number-input {
+    padding-right: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff73;
+}
+.convert-btn {
+    padding-right: 140px;
+    color: whitesmoke;
+    background-color: rgb(42, 198, 88);
+    border: none;
+    border-style: solid;
+    border-color: lightgray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.author {
+    font-size: 15px;
+    font-weight: bold;
+}
